@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
   <PropertyGroup>
     <ProjectType>Local</ProjectType>
     <SchemaVersion>2.0</SchemaVersion>
@@ -20,7 +20,7 @@
     <FileUpgradeFlags>
     </FileUpgradeFlags>
     <ProjectGuid>{E98126B2-AF17-4783-96B9-856D6744DCA3}</ProjectGuid>
-    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <UpgradeBackupLocation>
     </UpgradeBackupLocation>
     <OldToolsVersion>2.0</OldToolsVersion>
@@ -58,6 +58,7 @@
     <ErrorReport>prompt</ErrorReport>
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
     <Optimize>false</Optimize>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <OutputPath>.</OutputPath>
@@ -75,6 +76,7 @@
     <ErrorReport>prompt</ErrorReport>
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
     <Optimize>false</Optimize>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release - Client|AnyCPU'">
     <DebugSymbols>true</DebugSymbols>
@@ -93,6 +95,7 @@
     <WarningLevel>4</WarningLevel>
     <Optimize>false</Optimize>
     <SignAssembly>false</SignAssembly>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug_Demo|AnyCPU'">
     <DebugSymbols>true</DebugSymbols>
@@ -113,6 +116,7 @@
     <WarningLevel>4</WarningLevel>
     <Optimize>false</Optimize>
     <SignAssembly>false</SignAssembly>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release_Demo|AnyCPU'">
     <DebugSymbols>true</DebugSymbols>
@@ -133,6 +137,7 @@
     <WarningLevel>4</WarningLevel>
     <Optimize>false</Optimize>
     <SignAssembly>false</SignAssembly>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug_Demo_Gtk|AnyCPU'">
     <DebugSymbols>true</DebugSymbols>
@@ -153,6 +158,7 @@
     <SignAssembly>false</SignAssembly>
     <WarningLevel>4</WarningLevel>
     <Optimize>false</Optimize>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug-Gtk|AnyCPU'">
     <DebugSymbols>true</DebugSymbols>
@@ -171,6 +177,7 @@
     <SignAssembly>false</SignAssembly>
     <WarningLevel>4</WarningLevel>
     <Optimize>false</Optimize>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="mscorlib">

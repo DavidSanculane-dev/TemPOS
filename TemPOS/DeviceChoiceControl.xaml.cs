@@ -1,21 +1,13 @@
+using Microsoft.PointOfService;
 using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Reflection;
-using System.Text;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 using TemPOS.Managers;
 using TemPOS.Types;
+using System.Text;
+
 #if !DEMO
-using Microsoft.PointOfService;
 #endif
 
 namespace TemPOS
@@ -36,7 +28,7 @@ namespace TemPOS
             set
             {
                 selectedType = value;
-                gridPosPrinter.Visibility = (value == typeof(PosPrinter)) ? 
+                gridPosPrinter.Visibility = (value == typeof(PosPrinter)) ?
                     Visibility.Visible :Visibility.Collapsed;
                 gridCashDrawer.Visibility = (value == typeof(CashDrawer)) ?
                     Visibility.Visible : Visibility.Collapsed;
@@ -59,6 +51,8 @@ namespace TemPOS
                     InitializeSelectedPosPrinter();
             }
         }
+
+        public object gridPosPrinter { get; private set; }
 
         private void InitializeSelectedPosPrinter()
         {

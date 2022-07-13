@@ -14,7 +14,7 @@ namespace TemposClientAdministration.Helpers
         // The modulus is a safe prime
         public const String Modulus = "20E176988FD33DE7AE0D296BF805A49F3F45B92FB59036DCC9F0624B89B2DB67";
         public const String UpdateFileLocation = @"D:\Viipe.com\PointOfSale\update.zip";
-        public const String TemposVersionString = "1.0." + TemposBuildInfo.Revision;
+        private const string temposVersionString = "1.0." + TemposBuildInfo.Revision;
 
         private SRP6 srpServer = null;
         private ArrayList clients = new ArrayList();
@@ -48,6 +48,9 @@ namespace TemposClientAdministration.Helpers
             get;
             set;
         }
+        public static object TemposBuildInfo { get; private set; }
+
+        public static string TemposVersionString => temposVersionString;
 
         public Srp6ServerSocket()
         {

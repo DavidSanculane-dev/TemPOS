@@ -14,6 +14,7 @@ using TemposLibrary;
 using PosModels.Helpers;
 using PosModels.Managers;
 using System.Windows;
+using PointOfSale.Networking;
 
 namespace TemPOS.Networking
 {
