@@ -15,6 +15,7 @@ using TemPOS.EventHandlers;
 using TemPOS.Helpers;
 using TemPOS.Managers;
 using Strings = TemPOS.Types.Strings;
+using PointOfSale.Networking;
 
 namespace TemPOS
 {
