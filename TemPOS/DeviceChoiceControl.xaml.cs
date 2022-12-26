@@ -52,7 +52,7 @@ namespace TemPOS
             }
         }
 
-        public object gridPosPrinter { get; private set; }
+        public object GridPosPrinter { get; private set; }
 
         private void InitializeSelectedPosPrinter()
         {

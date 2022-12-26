@@ -8,6 +8,7 @@ using TemPOS.Types;
 using TemposLibrary;
 using PosModels;
 using PosControls;
+using PointOfSale.Networking;
 
 namespace TemPOS
 {

@@ -13,6 +13,7 @@ using PosModels.Types;
 using TemPOS.Commands;
 using TemPOS.EventHandlers;
 using TemPOS.Managers;
+using PointOfSale.Networking;
 
 namespace TemPOS
 {

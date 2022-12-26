@@ -81,8 +81,8 @@ namespace PosModels.Helpers
 				{
 					try
 					{
-						result = mo[wmiProperty].ToString();
-						break;
+                        //result = mo[wmiProperty].ToString();
+						//break;
 					}
 					catch
 					{

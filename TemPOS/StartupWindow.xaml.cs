@@ -18,6 +18,7 @@ using TemPOS.Types;
 using PosModels.Helpers;
 using System.IO;
 using Strings = TemPOS.Types.Strings;
+using PointOfSale.Networking;
 
 namespace TemPOS
 {
@@ -86,9 +87,9 @@ namespace TemPOS
             }
             else
             {
-                Version version = ApplicationDeployment.CurrentDeployment.CurrentVersion;
-                labelVersion.Content = "Version 1.0";
-                labelBuild.Content = Types.Strings.Build + " " + version.Build;
+                //Version version = ApplicationDeployment.CurrentDeployment.CurrentVersion;
+                //labelVersion.Content = "Version 1.0";
+                //labelBuild.Content = Types.Strings.Build + " " + version.Build;
             }
 #if DEMO
             labelBuild.Content += " (DEMO)";

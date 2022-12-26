@@ -13,6 +13,7 @@ using TemposLibrary;
 using TemPOS.Networking;
 
 using TemPOS.Types;
+using PointOfSale.Networking;
 #if SPEECH_COMMANDS
 using System.Speech.Recognition;
 #endif

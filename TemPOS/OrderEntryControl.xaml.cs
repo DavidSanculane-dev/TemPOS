@@ -19,6 +19,7 @@ using TemPOS.Managers;
 using Strings = TemPOS.Types.Strings;
 
 using TemPOS.Types;
+using PointOfSale.Networking;
 #if SPEECH_COMMANDS
 using System.Speech.Recognition;
 #endif

@@ -11,6 +11,7 @@ using PosModels;
 using System.Threading;
 using TemPOS.Helpers;
 using TemPOS.Types;
+using PointOfSale.Networking;
 
 namespace TemPOS
 {
